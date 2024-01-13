@@ -1,0 +1,49 @@
+/* electores de tipo */
+div {
+    color: white;
+  }
+
+/* selectores de clases */
+.alert-text {
+    color: red;
+  }
+
+  
+/* selectores de id */
+#title {
+    background-color: red;
+  }
+
+
+/* Clases con atributos en común */
+.read,
+.unread {
+  color: white;
+  background-color: black;
+}
+
+.read {
+  /* several unique declarations */
+  font-size: 19px;
+}
+
+.unread {
+  /* several unique declarations */
+  font-size: 18px;
+ }
+
+ /* Selectores de encadenamiento sin y con ID */
+ .subsection.header {
+    color: red;
+  }
+  
+  .subsection#preview {
+    color: blue;
+  }
+ 
+
+  /* Combinador desendete */
+.ancestor .contents {
+    /* some declarations */
+    color: #454545;
+  }

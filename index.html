@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Selectores de tipo -->
+    <div>Hello, World!</div>
+    <div>Hello again!</div>
+    <p>Hi...</p>
+    <div>Okay, bye.</div>
+
+    <!-- clases -->
+    <div class="alert-text">Please agree to our terms of service.</div>
+
+    <!-- ID -->
+    <div id="title">My Awesome 90's Page</div>
+
+    <!-- Elementos con valores iguales -->
+    <div class="read">
+        <p>Hola, cómo estás?</p>
+    </div>
+
+    <div class="unread">
+        <p>Hola, cómo estás?</p>
+    </div>
+
+    <!-- Selectores de encadenamiento -->
+    <div>
+        <div class="subsection header">Latest Posts</div>
+        <p class="subsection preview">This is where a preview for a post might go.</p>
+    </div>
+
+    <!-- Selectores de encadenamiento con ID -->
+    <div>
+        <div class="subsection header">Latest Posts</div>
+        <p class="subsection" id="preview">
+          This is where a preview for a post might go.
+        </p>
+    </div>
+
+    <!-- Combinador desendete -->
+
+    <div class="ancestor">
+        <!-- A -->
+        <div class="contents">
+          <!-- B -->
+            <div class="contents"><!-- C --> <p>Hola mundo</p></div>
+        </div>
+    </div>
+      
+    <div class="contents"></div>
+      <!-- D -->
+
+</body>
+</html>
