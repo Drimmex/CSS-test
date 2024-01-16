@@ -17,3 +17,12 @@ Se utilizan cuando deseamos dar estilos a un elemto en concreto que cuenta con d
 
 ## combinador desendiente
 Se utiliza cuando exite un elemento hijo o nieto al que se le quiere dar un estilo, a diferencia de los selectos de encadenamiento para aplicarlo debemos dejar un espacio en lugar de escribir todo junto, por ejemplo tenemos la clase fruta y dentro de la misma tenemos un elemento que recibe el nombre de frutos-rojos, y dentro del mismo hay un objeto fresa y a ese es el que queremos darle estilo, solo demos utilizar este tipo de combinador
+
+## Especidficidad
+Los cambios siempre afectaran segun el grado de especifidad de selectores y combinaciones, sinedo el orden ID, clase, selector de tipo, cuando se cuente con el mismo nivel de especifidad en dos declaraciones las dos serán tomadas como validas y los estilos que no se declaren en uno pero en otro si, seran tomados.
+
+## Herencia
+Los elemntos de una misma linea hereditaria serán afectados por esta regla, a menos que un elemento en dicha linea ereditaria sea llamado directamente
+
+## Orden de reglas
+La ultima en ser qaplicada será la ganadora

@@ -47,3 +47,23 @@ div {
     /* some declarations */
     color: #454545;
   }
+
+/* Especificidad */
+/* rule 1 */
+#subsection {
+  background-color: yellow;
+  color: blue;
+}
+
+/* rule 2 */
+.main #subsection {
+ color: red;
+}
+/* Herencia */
+#parent {
+  color: red;
+}
+
+.child {
+  color: blue;
+}
